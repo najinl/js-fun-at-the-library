@@ -12,12 +12,6 @@ class Librarian {
         }
   }
 
-  // findBook(bookName) {
-  //   if(librarian.library.shelves.fantasy[0] === bookName) {
-  //     return `Yes, we have ${bookName}`;
-  //   }
-  // }
-
   calculateLateFee(daysLate) {
     return Math.ceil(0.25 * daysLate);
   }
